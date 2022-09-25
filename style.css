@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* - Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%) */
+
+/* c
+ hsl(178, 100%, 50%) */
+
+body{
+    background-color:  hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    border-radius:10px  ;
+    padding: 15px;
+    width: 330px;
+    color: white;
+    box-shadow: 0px 0px 35px 2px rgba(0,0,0, 0.5);
+ 
+}
+
+.img{
+    width:300px ;
+    border-radius:15px ;
+}
+
+
+
+.h2{
+    margin-top: 15px;
+}
+
+
+
+.p{
+    opacity: 0.7;
+    display: flex;
+    margin-top: 10px;
+    color: hsl(215, 51%, 70%);
+    line-height: 1.5;
+
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    
+}
+
+.p-1{
+    margin-left: 5px;
+}
+
+.p-2{
+    color:  hsl(178, 100%, 50%);
+}
+
+.img-3{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+.p-3{
+    color: hsl(215, 51%, 70%) ;
+   
+}
+
+
+.hr{
+   background-color:hsl(215, 31%, 37%); 
+    height: 2px;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.img-4{
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+
+.text-blue{
+    color: hsl(215, 51%, 70%);
+}
+
+
+
+
+   
+
+
+
